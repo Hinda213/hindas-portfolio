@@ -19,27 +19,30 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full  bg-purple-800 dark:bg-slate-900 shadow-md z-50 text-white transition-colors">
+    <nav className="fixed w-full bg-white dark:bg-purple-900 shadow-md z-50 text-purple-900 dark:text-white transition-colors">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        <h1 className="text-xl font-bold text-primary">Hinda</h1>
+        <h1 className="flex items-center gap-2 text-xl font-bold">
+  <span role="img" aria-label="star">💫</span>
+  <span className="text-purple-800 dark:text-purple-200">Hinda</span>
+</h1>
         <ul className="hidden md:flex gap-7">
           <li>
-            <a href="#hero" className="hover:text-indigo-600 transition">
+            <a href="#hero" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="hover:text-indigo-600 transition">
+            <a href="#skills" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
               Skills
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-indigo-600 transition">
+            <a href="#projects" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-indigo-600 transition">
+            <a href="#contact" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
               Contact
             </a>
           </li>
