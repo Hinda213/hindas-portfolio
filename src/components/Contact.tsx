@@ -19,7 +19,7 @@ export default function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
-          action="/thanks"
+          action="/thanks.html"
           className="space-y-6"
         >
         <input type="hidden" name="form-name" value="contact" />
