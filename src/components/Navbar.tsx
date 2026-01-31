@@ -3,7 +3,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [dark, setDark] = useState(
-    document.documentElement.classList.contains("dark")
+    document.documentElement.classList.contains("dark"),
   );
 
   const toggleDarkMode = () => {
@@ -19,30 +19,37 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full bg-white dark:bg-purple-900 shadow-md z-50 text-purple-900 dark:text-white transition-colors">
+    <nav className="fixed w-full bg-indigo-800 dark:bg-indigo-950 shadow-md z-50 text-yellow-100 dark:text-white transition-colors">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <h1 className="flex items-center gap-2 text-xl font-bold">
-  <span role="img" aria-label="star">💫</span>
-  <span className="text-purple-800 dark:text-purple-200">Hinda</span>
-</h1>
+          <span role="img" aria-label="star">
+            💫
+          </span>
+          <span className="text-yellow-500 dark:text-purple-200">Hinda</span>
+        </h1>
         <ul className="hidden md:flex gap-7">
           <li>
-            <a href="#hero" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
+            <a href="#hero" className="hover:text-indigo-600 transition">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="hover:text-indigo-600 transition">
               About
             </a>
           </li>
           <li>
-            <a href="#skills" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
+            <a href="#skills" className="hover:text-indigo-600 transition">
               Skills
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
+            <a href="#projects" className="hover:text-indigo-600 transition">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:text-purple-700 dark:hover:text-purple-300 transition-colors">
+            <a href="#contact" className="hover:text-indigo-600 transition">
               Contact
             </a>
           </li>
@@ -63,7 +70,7 @@ const Navbar = () => {
       </div>
 
       {open && (
-        <ul className="flex flex-col gap-4 md:hidden bg-white dark:bg-slate-900 text-slate-800  dark:text-slate-100p-4 shadow-md transition-colors">
+        <ul className="flex flex-col gap-4 md:hidden bg-white dark:bg-slate-900 text-slate-800  dark:text-slate-100 p-4 shadow-md transition-colors">
           <li>
             <a href="#hero" onClick={() => setOpen(false)}>
               About
