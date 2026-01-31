@@ -1,85 +1,69 @@
-# Hinda’s Portfolio
+# 💫 Hinda's Portfolio
 
-Personal portfolio website.
+Welcome to my personal portfolio website! Here you'll find my top projects, a bit about myself, and how to get in touch.
 
-## 🛠 Tech Stack
-- React
-- TypeScript
-- Tailwind CSS
-- Vite
+---
 
+## 🚀 Live Demo
 
+[portfolio-hinda.netlify.app](https://portfolio-hinda.netlify.app/)
 
-# React + TypeScript + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 👋 About Me
 
-Currently, two official plugins are available:
+Hi! I'm **Hinda** from Hargeisa, Somaliland.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌱 Frontend Developer focused on delivering modern, high-performance UIs
+- 🎨 Love building beautiful & accessible experiences with **React** and **Tailwind CSS**
+- 🍳 Fun fact: When I'm not coding, you'll find me cooking!
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Languages:** JavaScript, TypeScript, HTML, CSS
+- **Frameworks/Libraries:** React, Tailwind CSS
+- **Tools:** Vite, Netlify, Git & GitHub
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📁 Featured Projects
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- [Todo App](https://todo-pro-hanuda.netlify.app/)
+  - Minimalist & intuitive todo list app
+  - [Source Code](https://github.com/Hinda213/todo-pro-hanuda)
+- [Finance Tracker Dashboard](https://finance-tracker-crud.netlify.app/)
+  - Modern dashboard for tracking your finance CRUD
+  - [Source Code](https://github.com/Hinda213/Finance-Tracker)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
+
+## 📬 Contact
+
+- Use the [Contact form on my site](https://portfolio-hinda.netlify.app/#contact)
+- Or email me: profhindo@gmail.com 
+
+---
+
+## 🛠️ Running Locally
+
+```bash
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
+npm install
+npm run dev
 ```
+Visit [http://localhost:5173](http://localhost:5173)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📝 License
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙏 Acknowledgments
+
+- Inspired by [Vite](https://vitejs.dev/), [React](https://reactjs.org/), [Tailwind CSS](https://tailwindcss.com/)

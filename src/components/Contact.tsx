@@ -42,7 +42,7 @@ export default function Contact() {
           placeholder="Your Message"
           rows={4}
           className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-transparent text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-          requiredS
+          required
         />
         <button
           type="submit"
