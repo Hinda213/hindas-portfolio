@@ -19,7 +19,7 @@ export default function Contact() {
           name="contact"
           method="POST"
           data-netlify="true"
-          action="/thanks.html"
+          action="https://formspree.io/f/xeekwpnz"
           className="space-y-6"
         >
         <input type="hidden" name="form-name" value="contact" />
@@ -42,7 +42,7 @@ export default function Contact() {
           placeholder="Your Message"
           rows={4}
           className="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600 bg-transparent text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
-          required
+          requiredS
         />
         <button
           type="submit"
