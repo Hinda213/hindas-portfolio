@@ -2,9 +2,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section 
-    id="hero"
-    className="relative min-h-screen flex items-center bg-gradient-to-br from-slate-100 to-slate-400 dark:from-slate-500 dark:to-slate-700">
+    <section
+      id="hero"
+      className="relative min-h-screen flex items-center bg-gradient-to-br from-slate-100 to-slate-400 dark:from-slate-500 dark:to-slate-700"
+    >
       <div className="absolute top-20 left-20 w-72 h-72 bg-indigo-300 rounded-full blur-3xl opacity-20"></div>
       <div className="max-w-6xl mx-auto px-6 text-center">
         {/* Name */}
@@ -41,16 +42,22 @@ const Hero = () => {
         >
           <a
             href="#projects"
-            className="px-8 py-3 rounded-lg bg-indigo-600 dark:bg-white text-white dark:text-indigo-600 dark:font-bold font-semibold hover:bg-indigo-700 transition"
+            className="px-8 py-3 rounded-lg bg-indigo-600 dark:bg-white text-white dark:text-indigo-600 dark:font-bold font-semibold hover:bg-indigo-700 dark:hover:bg-indigo-700 dark:hover:text-white transition"
           >
             View Projects
           </a>
 
           <a
             href="#contact"
-            className="px-8 py-3 rounded-lg border border-indigo-600 dark:border-indigo-200 text-indigo-600 dark:text-indigo-200 font-semibold hover:bg-indigo-50 transition"
+            className="px-8 py-3 rounded-lg border border-indigo-600 dark:border-indigo-200 text-indigo-600 dark:text-indigo-200 font-semibold hover:bg-indigo-50 dark:hover:text-indigo-800 transition"
           >
             Contact Me
+          </a>
+          <a
+            href="/Hinda_Resume.pdf"
+            className="px-8 py-3 rounded-lg bg-indigo-600 dark:bg-white text-white dark:text-indigo-600 dark:font-bold font-semibold hover:bg-indigo-700 dark:hover:bg-indigo-700 dark:hover:text-white transition"
+          >
+            View Resume
           </a>
         </motion.div>
       </div>

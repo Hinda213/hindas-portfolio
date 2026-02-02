@@ -1,4 +1,5 @@
 import { useState } from "react";
+import me from "../assets/me.jpeg";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,8 +23,12 @@ const Navbar = () => {
     <nav className="fixed w-full bg-indigo-800 dark:bg-indigo-950 shadow-md z-50 text-yellow-100 dark:text-white transition-colors">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
         <h1 className="flex items-center gap-2 text-xl font-bold">
-          <span role="img" aria-label="star">
-            💫
+          <span role="img" aria-label="Hinda's image">
+            <img
+              src={me}
+              alt="Hinda"
+              className="w-10 h-10 rounded-full object-cover border-2 border-indigo-500 shadow-lg"
+            />
           </span>
           <span className="text-yellow-500 dark:text-purple-200">Hinda</span>
         </h1>
@@ -46,6 +51,16 @@ const Navbar = () => {
           <li>
             <a href="#projects" className="hover:text-indigo-600 transition">
               Projects
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Hinda_Resume.pdf"
+              className="hover:text-indigo-600 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume
             </a>
           </li>
           <li>
@@ -86,6 +101,7 @@ const Navbar = () => {
               Projects
             </a>
           </li>
+          
           <li>
             <a href="#contact" onClick={() => setOpen(false)}>
               Contact
