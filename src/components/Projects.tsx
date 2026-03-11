@@ -2,12 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    title: "Todo App",
+    title: "E-commerce App",
     description:
-      "A minimalist and intuitive todo list app to help you stay organized.",
+      "A React + TypeScript e-commerce app with product listing, shopping cart, and checkout functionality.",
     tech: ["React", "Tailwind CSS", "Netlify"],
-    liveUrl: "https://todo-pro-hanuda.netlify.app/",
-    githubUrl: "https://github.com/Hinda213/todo-pro-hanuda",
+    liveUrl: "https://ecommerce-w-application.netlify.app/",
+    githubUrl: "https://github.com/Hinda213/e-commerce-app",
   },
   {
     title: "Finance Tracker Dashboard",
