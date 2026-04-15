@@ -17,6 +17,14 @@ const projects = [
     liveUrl: "https://finance-tracker-crud.netlify.app//",
     githubUrl: "https://github.com/Hinda213/Finance-Tracker",
   },
+  {
+  title: "Weather App",
+  description: 
+  " A fullstack weather app built with React and TypeScript, featuring real-time weather data, forecasts, and a responsive design.",
+  tech: ["React", "Tailwind CSS", "Render.com", "Versel", "OpenWeatherMap API"],
+  liveUrl: "https://atmos-stack-project-n8bp.vercel.app/",
+  githubUrl: "https://github.com/Hinda213/AtmosStack-project"
+  }
 ];
 
 const Projects = () => {
