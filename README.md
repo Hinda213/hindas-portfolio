@@ -30,12 +30,15 @@ Hi! I'm **Hinda** from Hargeisa, Somaliland.
 
 ## 📁 Featured Projects
 
-- [Todo App](https://todo-pro-hanuda.netlify.app/)
-  - Minimalist & intuitive todo list app
-  - [Source Code](https://github.com/Hinda213/todo-pro-hanuda)
+- (https://ecommerce-w-application.netlify.app/)
+  - Ecommerce App with dynamic routing and external API product listing
+  - [Source Code ](https://github.com/Hinda213/e-commerce-app)
 - [Finance Tracker Dashboard](https://finance-tracker-crud.netlify.app/)
   - Modern dashboard for tracking your finance CRUD
   - [Source Code](https://github.com/Hinda213/Finance-Tracker)
+  - {Full-stack Weather App](https://atmos-stack-project-n8bp.vercel.app/)
+  - A modern full-stack weather application built with React, TypeScript, tailwind CSS, Express
+  - [Source Code](https://github.com/Hinda213/AtmosStack-project)
 
 ---
 
